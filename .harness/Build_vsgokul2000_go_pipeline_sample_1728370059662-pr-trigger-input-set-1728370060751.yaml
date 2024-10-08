@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vsgokul2000_go_pipeline_sample_1728370059662-pr-trigger-input-set
+  identifier: Build_vsgokul2000_go_pipeline_sample_1728370059662prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: trial
+  pipeline:
+    identifier: Build_vsgokul2000_go_pipeline_sample_1728370059662
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
